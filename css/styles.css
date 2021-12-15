@@ -1,0 +1,90 @@
+body{
+    font-family: "Roboto" ;
+    background-color:#E5E5E5 ;
+    color: #212121
+    ;
+}
+
+.list{
+list-style: none;
+}
+.link{
+    text-decoration: none;
+   
+}
+
+
+.header-logo-link{
+    font-family:"Raleway" ;
+    color: #2196F3;
+}
+.footer-logo{
+    font-family: "Raleway";
+    color: #2196F3;
+}
+/* Стилизация Nav */
+.nav-item .link{
+    color: #212121;
+}
+.nav-item .link:hover, .nav-item .link:focus{
+color: #2196F3;
+}
+/* Стилизация контактов */
+.header-item .link{
+    color:#212121;
+}
+.header-item .link:hover, .header-item .link:focus{
+    color:#2196F3 ;
+}
+/* Стилизация main */
+.main-title{
+    color: #FFFFFF;
+}
+.main{
+    background-color: #2F303A;
+}
+.main-btn{
+    color: #FFFFFF;
+    background-color:  #2196F3;
+}
+/* Стилизация hero */
+.hero{
+    background-color: #E5E5E5;
+}
+.hero-text{
+    color: #757575;
+}
+/* Стилизация pre-about */
+.pre-about{
+    background-color:#E5E5E5 ;
+}
+
+/* Стилизация about */
+.about-text{
+    color: #757575;
+}
+.about{
+    background-color: #F5F4FA;
+}
+/* Стилизация footer */
+.footer{
+    background-color: #2F303A;
+}
+.logo-link{
+    color: #FFFFFF;
+}
+.footer-link{
+    color:rgba(255, 255, 255, 0.6) ;
+}
+/* Стилизация фильтров */
+.filters-btn:hover, .filters-btn:focus{
+color: #FFFFFF;
+background-color: #2196F3;
+}
+/* Стилизация контенту */
+.content-text{
+color: #757575;
+}
+.content{
+    background-color: #E5E5E5;
+}
