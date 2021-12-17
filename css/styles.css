@@ -9,8 +9,7 @@
 body{
     font-family: "Roboto" "sans-sarif" ;
     background-color:#E5E5E5 ;
-    color: var(--first-color)
-    ;
+    color: var(--first-color);
 }
 
 .list{
