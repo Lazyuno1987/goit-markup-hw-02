@@ -85,6 +85,12 @@ color: var(--other-color);
 background-color:  var(--accent-color);
 cursor: pointer;
 }
+.main-btn:hover, .main-btn:focus{
+background-color: #188CE8;
+}
+
+
+
 /* Стилизация hero */
 .visually-hidden{
     position: absolute;
