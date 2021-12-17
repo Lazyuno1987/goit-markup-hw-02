@@ -52,7 +52,7 @@ letter-spacing: 0.02em;
 color: var(--first-color);
 }
 .nav-item .link:hover, 
-.nav-item .link:focus,{
+.nav-item .link:focus{
 color: var(--accent-color);
 }
 
