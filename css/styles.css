@@ -19,6 +19,7 @@ list-style: none;
     text-decoration: none;
    
 }
+/* Стилизация header  */
 
 
 .header-logo-link{
@@ -30,16 +31,7 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 }
 
-/* Стилизация footer */
 
-/* .link .footer-logo{
-font-family: "Raleway"; 
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-} */
 
 /* Стилизация Nav */
 
@@ -54,6 +46,9 @@ color: var(--first-color);
 .nav-item .link:hover, 
 .nav-item .link:focus{
 color: var(--accent-color);
+}
+.nav-list .link-current{
+    color: var(--accent-color);
 }
 
 /* Стилизация контактов */
