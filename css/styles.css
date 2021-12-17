@@ -53,9 +53,11 @@ letter-spacing: 0.02em;
 color: var(--first-color);
 }
 .nav-item .link:hover, 
-.nav-item .link:focus,
-.nav-item .link:active{
+.nav-item .link:focus,{
 color: var(--accent-color);
+}
+.link .nav-active:active{
+    color: var(--accent-color);
 }
 /* Стилизация контактов */
 .header-item .link{
