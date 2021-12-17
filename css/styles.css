@@ -55,9 +55,7 @@ color: var(--first-color);
 .nav-item .link:focus,{
 color: var(--accent-color);
 }
-.link .nav-active:active{
-    color: var(--accent-color);
-}
+
 /* Стилизация контактов */
 .header-item .link{
 font-family: "Roboto";
