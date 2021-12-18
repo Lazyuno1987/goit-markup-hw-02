@@ -7,8 +7,7 @@
 
 
 body{
-    font-family: "Roboto" "sans-sarif" ;
-    background-color:#E5E5E5 ;
+    font-family: "Roboto", sans-serif ;
     color: var(--first-color);
 }
 
@@ -66,16 +65,18 @@ color: #757575;
 color: var(--accent-color) ;
 }
 /* Стилизация main */
+.main{
+    background: #2F303A
+}
 .main-title{
     font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color: var(--other-color);
+    text-transform: uppercase;
 }
-.main{
-    background-color: #2F303A;
-}
+
 .main-btn{
 font-family: "Roboto";
 font-weight: 700;
@@ -99,9 +100,7 @@ background-color: #188CE8;
     height: 1px;
     margin: -1px;
 }
-.hero{
-    background-color: #E5E5E5;
-}
+
 
 .hero-title{
 font-family: "Roboto";
@@ -120,9 +119,7 @@ letter-spacing: 0.03em;
 color: var(--second-color);
 }
 /* Стилизация pre-about */
-.pre-about{
-    background-color:#E5E5E5 ;
-}
+
 
 .pre-about-title{
 font-family: "Roboto";
@@ -161,9 +158,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-color);
 }
-.about{
-    background-color: #F5F4FA;
-}
+
 /* Стилизация footer */
 .logo-link:hover, .logo-link:focus{
 color: grey;
@@ -183,6 +178,7 @@ color: grey;
 }
 .logo-link{
 font-family: "Roboto";
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -190,6 +186,7 @@ color: var(--other-color);
 }
 .footer-link{
 font-family: "Roboto";
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -212,6 +209,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--first-color);
+background: #F5F4FA;
 }
 /* Стилизация контенту */
 .content-title{
